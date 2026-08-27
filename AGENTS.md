@@ -252,7 +252,7 @@ git pull --rebase && git push
 ### User override
 
 If the user instructions conflict with rules set out here, ask for confirmation that they want to override the rules. Only then execute their instructions.
+
 ## Raising PRs
 
 PRs in this repo are routed through `pr-axi`: `pr-axi raise` opens a same-repo PR (onyx-space/prime-agent), `pr-axi raise --upstream` opens a PR to the parent (PrimeIntellect-ai/prime-agent) via a transient fork switch. See `~/.agents/skills/pr-axi/SKILL.md`.
-
